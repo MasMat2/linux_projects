@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="private">
+  <head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link id="favicon" rel="icon" type="image/png" href="chrome://browser/skin/privatebrowsing/favicon.svg" />
+    <link rel="stylesheet" href="Navegaci%C3%B3n%20Privada%20Archivos/aboutPrivateBrowsing_002.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="Navegaci%C3%B3n%20Privada%20Archivos/aboutPrivateBrowsing.css" type="text/css" media="all" />
+    <script type="application/javascript" src="Navegaci%C3%B3n%20Privada%20Archivos/aboutPrivateBrowsing.js"></script>
+  <title>Navegación Privada</title></head>
+
+  <body dir="ltr">
+    <p class="showNormal">En este momento no estás en una ventana privada.</p>
+    <button xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" id="startPrivateBrowsing" class="showNormal" label="Abrir una ventana privada" accesskey="P"/>
+    <div class="showPrivate container">
+      <h1 class="title">
+        <span id="title" class="hide">Navegación privada</span>
+        <span id="titleTracking">Navegación Privada con Protección de Rastreo</span>
+      </h1>
+      <section class="section-main">
+        <p>Cuando navegas en una Ventana Privada, Firefox <strong>no guarda</strong>:</p>
+        <div class="list-row">
+          <ul>
+            <li>las páginas visitadas</li>
+            <li>las cookies</li>
+            <li>las búsquedas</li>
+            <li>los archivos temporales</li>
+          </ul>
+        </div>
+        <p>Firefox <strong>guardará</strong> tus:</p>
+        <div class="list-row">
+          <ul>
+            <li>marcadores</li>
+            <li>descargas</li>
+          </ul>
+        </div>
+        <p>Navegación Privada <strong>no te vuelve anónimo</strong> en Internet. Tu jefe o tu proveedor de Internet aún pueden saber las páginas que visitas.</p>
+      </section>
+
+      <h2 id="tpSubHeader" class="about-subheader">
+        <span class="tpTitle">Protección contra rastreo</span>
+        <input id="tpToggle" class="toggle toggle-input" checked="checked" type="checkbox" />
+        <span id="tpButton" class="toggle-btn"></span>
+      </h2>
+
+      <section class="section-main">
+        <p>Algunos sitios web usan rastreadores que pueden monitorear tu
+ actividad a través de Internet. Con la Navegación Privada, Firefox 
+bloqueará muchos rastreadores recolectan información acerca de tu 
+actividad de navegación.</p>
+        <p>
+          <a id="startTour" class="button" href="https://www.mozilla.org/es-MX/firefox/59.0.2/tracking-protection/start/">Ver cómo funciona</a>
+        </p>
+      </section>
+
+      <section class="section-main">
+        <p class="about-info">Aprender más acerca de <a id="learnMore" target="_blank" href="https://support.mozilla.org/1/firefox/59.0.2/Linux/es-MX/private-browsing">Navegación privada</a>.</p>
+      </section>
+
+    </div>
+  </body>
+</html>

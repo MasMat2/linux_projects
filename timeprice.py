@@ -1,0 +1,2 @@
+sec = 1514673192
+coins = {'Bitcoin':13228.10,'Ripple':2.08,'Ethereum':726.31,'Bitcoin Cash':2441.82,'Cardano':0.668902,'Litecoin':223.28,'IOTA':3.36,'NEM':0.944616,'Dash':1028.07,'Stellar':0.324957,'Monero':340.27,'EOS':8.73,'NEO':71.33,}

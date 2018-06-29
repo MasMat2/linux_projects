@@ -1,0 +1,6 @@
+Different straegies:
+    get a random move
+    check best move
+    check best corner move
+    check best side move
+    check worst move
